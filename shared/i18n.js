@@ -40,7 +40,7 @@ en: {
 'ct.title': 'Let’s talk about your project', 'ct.sub': 'Send your BOM or just describe what you need. We reply within one business day.',
 'f.name': 'Name', 'f.company': 'Company', 'f.email': 'Email', 'f.msg': 'What do you need?', 'f.file': 'Attach BOM (xlsx, csv, pdf)', 'f.send': 'Send request',
 'f.ok': 'Thank you! We’ll get back to you within one business day.',
-'ct.office': 'Office', 'ct.addr': 'Sofia, Bulgaria', 'ct.email': 'Email', 'ct.phone': 'Phone', 'ct.hours': 'Mon–Fri, 9:00–18:00',
+'ct.office': 'Office', 'ct.addr': 'Office 4, 7 Todorini Kukli Str., Sofia, Bulgaria', 'ct.email': 'Email', 'ct.phone': 'Phone',
 'cta.title': 'Have a BOM ready?', 'cta.sub': 'Send it today and get a full quote within 48 hours.',
 'foot.rights': 'All rights reserved.'
 },
@@ -84,7 +84,7 @@ bg: {
 'ct.title': 'Нека поговорим за вашия проект', 'ct.sub': 'Изпратете своя BOM или просто опишете от какво имате нужда. Отговаряме в рамките на един работен ден.',
 'f.name': 'Име', 'f.company': 'Фирма', 'f.email': 'Имейл', 'f.msg': 'От какво имате нужда?', 'f.file': 'Прикачи BOM (xlsx, csv, pdf)', 'f.send': 'Изпрати запитване',
 'f.ok': 'Благодарим! Ще се свържем с вас в рамките на един работен ден.',
-'ct.office': 'Офис', 'ct.addr': 'София, България', 'ct.email': 'Имейл', 'ct.phone': 'Телефон', 'ct.hours': 'Пон–Пет, 9:00–18:00',
+'ct.office': 'Офис', 'ct.addr': 'ул. „Тодорини кукли“ 7, офис 4, София, България', 'ct.email': 'Имейл', 'ct.phone': 'Телефон',
 'cta.title': 'Имате готов BOM?', 'cta.sub': 'Изпратете го днес и получете пълна оферта до 48 часа.',
 'foot.rights': 'Всички права запазени.'
 },
@@ -128,7 +128,7 @@ zh: {
 'ct.title': '聊聊您的项目', 'ct.sub': '发送您的 BOM,或简单描述您的需求。我们将在一个工作日内回复。',
 'f.name': '姓名', 'f.company': '公司', 'f.email': '邮箱', 'f.msg': '您需要什么?', 'f.file': '上传 BOM(xlsx、csv、pdf)', 'f.send': '发送询价',
 'f.ok': '谢谢!我们将在一个工作日内与您联系。',
-'ct.office': '办公室', 'ct.addr': '保加利亚 索非亚', 'ct.email': '邮箱', 'ct.phone': '电话', 'ct.hours': '周一至周五 9:00–18:00',
+'ct.office': '办公室', 'ct.addr': '保加利亚索非亚 Todorini Kukli 街 7 号 4 室', 'ct.email': '邮箱', 'ct.phone': '电话',
 'cta.title': 'BOM 已经准备好了?', 'cta.sub': '今天发送,48 小时内获得完整报价。',
 'foot.rights': '版权所有。'
 }

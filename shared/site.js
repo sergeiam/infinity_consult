@@ -51,8 +51,8 @@
       <p class="form-ok" role="status" data-i18n="f.ok"></p></form>`,
     info: () => `<dl>
       <dt data-i18n="ct.office"></dt><dd data-i18n="ct.addr"></dd>
-      <dt data-i18n="ct.email"></dt><dd><a href="mailto:office@infinity-consult.example">office@infinity-consult.example</a></dd>
-      <dt data-i18n="ct.phone"></dt><dd>+359 2 000 0000</dd></dl><p class="hours" data-i18n="ct.hours"></p>`,
+      <dt data-i18n="ct.email"></dt><dd><a href="mailto:info@infconsultbg.com">info@infconsultbg.com</a></dd>
+      <dt data-i18n="ct.phone"></dt><dd><a href="tel:+359899991217">+359 899 991 217</a></dd></dl>`,
     cta: () => `<div class="wrap"><h2 data-i18n="cta.title"></h2><p data-i18n="cta.sub"></p><a class="btn" href="#/contact" data-i18n="hero.cta1"></a></div>`,
     footer: () => `<div class="wrap"><a class="logo" href="#/home">${LOGO}<span>Infinity<b>Consult</b></span></a><p data-i18n="brand.tag"></p><p class="copy">© 2026 Infinity Consult. <span data-i18n="foot.rights"></span></p></div>`
   };
