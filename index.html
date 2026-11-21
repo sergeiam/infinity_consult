@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Infinity Consult — site candidates</title>
+<style>
+*{box-sizing:border-box;margin:0}
+body{font:17px/1.6 system-ui,"Segoe UI",sans-serif;background:#101214;color:#eceef0;padding:64px 24px}
+main{max-width:1080px;margin:0 auto}
+h1{font-size:clamp(28px,4vw,42px);letter-spacing:-.02em;line-height:1.1}
+.sub{color:#9aa3ab;margin:14px 0 44px;max-width:64ch}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(290px,1fr));gap:20px}
+a.c{display:block;color:inherit;text-decoration:none;border:1px solid #2a2f34;border-radius:16px;padding:28px;background:#171a1d;transition:transform .2s,border-color .2s}
+a.c:hover{transform:translateY(-4px);border-color:var(--c)}
+.sw{height:120px;border-radius:10px;margin-bottom:22px;background:var(--bgc);display:grid;place-items:center;color:var(--c);font-weight:700;font-size:22px;letter-spacing:.02em}
+h2{font-size:21px;margin-bottom:8px}
+p{color:#9aa3ab;font-size:15.5px}
+ul{margin:14px 0 0;padding-left:18px;color:#9aa3ab;font-size:14.5px}
+.go{display:inline-block;margin-top:18px;color:var(--c);font-weight:600}
+.note{margin-top:44px;font-size:14.5px;color:#7d868e;max-width:80ch}
+</style>
+</head>
+<body>
+<main>
+  <h1>Infinity Consult — three site candidates</h1>
+  <p class="sub">Same content, pages and languages (BG / EN / 中文) in three visual directions. Each has five pages: Home, Services, How it works, About, Contact.</p>
+  <div class="grid">
+    <a class="c" href="simple/index.html" style="--c:#3fae8f;--bgc:#f7f5ef"><div class="sw" style="color:#0d5c49">Plain</div>
+      <h2>1 · Plain</h2><p>Light, typographic, no motion. Fastest to load and easiest to maintain.</p>
+      <ul><li>Warm paper background, deep green accent</li><li>Big headline, clear call to action</li><li>Static BOM → orders illustration</li></ul><span class="go">Open →</span></a>
+    <a class="c" href="motion/index.html" style="--c:#b8ff4d;--bgc:#080b12"><div class="sw">Motion</div>
+      <h2>2 · Motion</h2><p>Dark and energetic. Everything draws, counts and slides in.</p>
+      <ul><li>Circuit traces draw themselves with signal pulses</li><li>Animated Shenzhen → Sofia route</li><li>Live BOM lines dropping into orders</li></ul><span class="go">Open →</span></a>
+    <a class="c" href="three/index.html" style="--c:#f0bd4f;--bgc:#06130e"><div class="sw">3D</div>
+      <h2>3 · 3D (three.js)</h2><p>A live circuit board behind the content, driven by scroll.</p>
+      <ul><li>Components land on the PCB, then lift apart</li><li>Parts sort themselves into three order crates</li><li>Hover parts for labels; each page has its own camera angle</li></ul><span class="go">Open →</span></a>
+  </div>
+  <p class="note">Prototype notes: statistics, e-mail, phone and address are placeholders; the contact form does not send anything yet. Candidate 3 loads three.js from a CDN and needs an internet connection.</p>
+</main>
+</body>
+</html>

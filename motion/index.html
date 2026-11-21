@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="bg">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Infinity Consult</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;600&family=Unbounded:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../shared/base.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="progress" aria-hidden="true"></div>
+<header class="hdr" data-block="hdr"></header>
+<main>
+  <div data-page="home">
+    <section class="hero">
+      <svg class="traces" viewBox="0 0 1200 700" preserveAspectRatio="xMidYMid slice" aria-hidden="true"></svg>
+      <div class="wrap">
+        <div class="hero-txt">
+          <p class="eyebrow" data-i18n="hero.eyebrow"></p>
+          <h1 data-i18n="hero.title"></h1>
+          <p class="lead" data-i18n="hero.sub"></p>
+          <div class="actions"><a class="btn" href="#/contact" data-i18n="hero.cta1"></a><a class="btn ghost" href="#/process" data-i18n="hero.cta2"></a></div>
+        </div>
+        <div class="chip" aria-hidden="true">
+          <svg viewBox="0 0 32 20" fill="none" stroke-width="2.2" stroke-linecap="round">
+            <path class="inf-base" d="M16 10c-3-5-5.5-7-9-7a7 7 0 1 0 0 14c3.5 0 6-2 9-7zm0 0c3 5 5.5 7 9 7a7 7 0 1 0 0-14c-3.5 0-6 2-9 7z"/>
+            <path class="inf-run" pathLength="1" d="M16 10c-3-5-5.5-7-9-7a7 7 0 1 0 0 14c3.5 0 6-2 9-7zm0 0c3 5 5.5 7 9 7a7 7 0 1 0 0-14c-3.5 0-6 2-9 7z"/>
+          </svg>
+        </div>
+      </div>
+    </section>
+    <div class="marquee" aria-hidden="true">
+      <ul class="cats" data-block="cats"></ul><ul class="cats" data-block="cats"></ul><ul class="cats" data-block="cats"></ul><ul class="cats" data-block="cats"></ul>
+    </div>
+    <section class="tight"><div class="wrap"><div class="stats" data-block="stats"></div></div></section>
+    <section class="route"><div class="wrap">
+      <div class="sec-head" data-block="head" data-k="demo"></div>
+      <svg class="route-svg" viewBox="0 0 1000 230" aria-hidden="true">
+        <path class="rt-line" d="M90 170C300 10 700 10 910 170"/>
+        <path class="rt-glow" pathLength="1" d="M90 170C300 10 700 10 910 170"/>
+        <circle class="node" cx="90" cy="170" r="9"/><circle class="node" cx="910" cy="170" r="9"/>
+        <text x="90" y="212" text-anchor="middle" data-i18n="city.sz"></text>
+        <text x="910" y="212" text-anchor="middle" data-i18n="city.sof"></text>
+        <g class="pkg"><rect x="-10" y="-10" width="20" height="20" rx="4"/><animateMotion dur="6s" repeatCount="indefinite" calcMode="linear" keyPoints="0;1;1" keyTimes="0;0.85;1" path="M90 170C300 10 700 10 910 170"/></g>
+      </svg>
+      <div class="demo" data-block="demo"></div>
+    </div></section>
+    <section><div class="wrap">
+      <div class="sec-head" data-block="head" data-k="srv"></div>
+      <div class="cards" data-block="services"></div>
+    </div></section>
+    <section><div class="wrap">
+      <div class="sec-head" data-block="head" data-k="why"></div>
+      <div class="why" data-block="why"></div>
+    </div></section>
+    <section class="cta-band" data-block="cta"></section>
+  </div>
+
+  <div data-page="services">
+    <section class="page-top"><div class="wrap">
+      <div class="sec-head" data-block="head" data-k="srv"></div>
+      <div class="cards" data-block="services"></div>
+    </div></section>
+    <section><div class="wrap">
+      <div class="sec-head" data-block="head" data-k="cats"></div>
+      <ul class="cats" data-block="cats"></ul>
+    </div></section>
+    <section class="cta-band" data-block="cta"></section>
+  </div>
+
+  <div data-page="process">
+    <section class="page-top"><div class="wrap">
+      <div class="sec-head" data-block="head" data-k="proc"></div>
+      <ol class="steps" data-block="steps"></ol>
+    </div></section>
+    <section><div class="wrap">
+      <div class="sec-head" data-block="head" data-k="demo"></div>
+      <div class="demo" data-block="demo"></div>
+    </div></section>
+    <section class="cta-band" data-block="cta"></section>
+  </div>
+
+  <div data-page="about">
+    <section class="page-top"><div class="wrap">
+      <p class="eyebrow" data-i18n="about.title"></p>
+      <h1 class="about-lead" data-i18n="about.lead"></h1>
+      <div class="prose"><p data-i18n="about.p1"></p><p data-i18n="about.p2"></p></div>
+    </div></section>
+    <section><div class="wrap"><div class="values" data-block="values"></div></div></section>
+    <section><div class="wrap">
+      <div class="sec-head" data-block="head" data-k="why"></div>
+      <div class="why" data-block="why"></div>
+    </div></section>
+    <section class="cta-band" data-block="cta"></section>
+  </div>
+
+  <div data-page="contact">
+    <section class="page-top"><div class="wrap">
+      <div class="sec-head" data-block="head" data-k="ct"></div>
+      <div class="contact"><div data-block="form"></div><div class="info" data-block="info"></div></div>
+    </div></section>
+  </div>
+</main>
+<footer class="ftr" data-block="footer"></footer>
+<script src="../shared/i18n.js"></script>
+<script src="../shared/site.js"></script>
+<script src="motion.js"></script>
+</body>
+</html>

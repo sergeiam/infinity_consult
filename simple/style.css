@@ -1,0 +1,21 @@
+/* Candidate 1 — plain: warm paper, deep green ink, no motion. */
+:root{
+  --font:"Manrope";
+  --bg:#f7f5ef;--fg:#14191a;--muted:#59625f;
+  --accent:#0d5c49;--on-accent:#fff;--accent-soft:#dfece6;
+  --card:#fff;--line:#e3dfd3;--line-strong:#c9c4b5;
+  --hdr-bg:rgba(247,245,239,.86);--radius:14px;
+}
+.hero{padding:112px 0 96px}
+.hero h1{font-size:clamp(40px,6.4vw,84px);font-weight:800;letter-spacing:-.035em;max-width:15ch;margin:20px 0 28px;line-height:1.02}
+.hero .lead{margin-bottom:36px}
+.band{padding:48px 0;border-block:1px solid var(--line)}
+.tint{background:#efece2}
+.card{box-shadow:0 1px 0 rgba(20,25,26,.03)}
+.about-lead{font-size:clamp(30px,4.4vw,54px);letter-spacing:-.025em;max-width:20ch;margin:18px 0 36px;font-weight:800}
+.prose{max-width:62ch;display:grid;gap:18px;font-size:19px;color:var(--muted)}
+.value{border-top:2px solid var(--accent);padding-top:18px}
+.cta-band{background:var(--accent);color:#fff}
+.cta-band p{color:rgba(255,255,255,.78)}
+.cta-band .btn{background:#fff;color:var(--accent);border-color:#fff}
+.ftr{border-top:0}
